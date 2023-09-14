@@ -5,6 +5,9 @@ import os
 import openai
 from dotenv import load_dotenv, find_dotenv
 from tqdm import tqdm
+from langchain.text_splitter import RecursiveCharacterTextSplitter
+from langchain.embeddings.openai import OpenAIEmbeddings
+from langchain.vectorstores import Chroma
 
 os.environ["OPEN_API_KEY"] = ""
 _ = load_dotenv(find_dotenv())
@@ -17,7 +20,7 @@ def LoadPDF(path):
     return loader.load()
 
 pdf_directory="pdf"
-LoadPDF(pdf_directory)
+loaded_pdfs=LoadPDF(pdf_directory)
 ##########################################################
 def LoadCSV(path):
     loader = CSVLoader(file_path=path, encoding="utf-8", csv_args={'delimiter': ','})
@@ -34,7 +37,7 @@ for csv_file in tqdm(csv_files):
 
 #######################################################
 #LOAD Directory inside another directory
-def load_csv_files_in_directory(directory_path):
+def load_csv_directory(directory_path):
     csv_data_list = []
     
     # Go through all general directory
@@ -42,7 +45,7 @@ def load_csv_files_in_directory(directory_path):
         for file in files:
             if file.endswith(".csv"):
                 csv_file_path = os.path.join(root, file)
-                print(f"Loading {csv_file_path}...")
+                # print(f"Loading {csv_file_path}...")
                 
                 # Carga el archivo CSV utilizando CSVLoader
                 csv_data = LoadCSV(csv_file_path)
@@ -53,5 +56,12 @@ def load_csv_files_in_directory(directory_path):
 general_directory = "fifa_wc_2018"
 
 # Load CSV from the subdirectories 
-load_csv_files_in_directory(general_directory)
+load_csv_directory(general_directory)
+############################################################
+
+text_splitter = RecursiveCharacterTextSplitter(chunk_size=1000, chunk_overlap=100)
+splitted = text_splitter.split_documents(loaded_pdfs)
+########################################################
+# embeddings = OpenAIEmbeddings()
+# vectorstore = Chroma.from_documents(loaded_pdfs, embeddings)
 
