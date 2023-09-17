@@ -1,8 +1,43 @@
-Quien gano la copa mundial de futbol del 2010?
-Explicame en un parrafo en que consiste un offside
-Que equipos participaron en la copa mundial de futbol del año 1930
+1.Quien gano la copa mundial de futbol del 2010?
+' España ganó la Copa Mundial de Fútbol de 2010.'
+Pdf2.pdf (pag66), FIFA - 20210.csv 
+
+2.Explicame en un parrafo en que consiste un offside
+' Un offside ocurre cuando un jugador de ataque se encuentra en una
+ posición adelantada a los demás jugadores de su equipo y en la 
+ misma línea o delante de un jugador del equipo rival cuando se 
+ produce un pase. Esto puede ser penalizado con una falta y el 
+ equipo contrario recibirá un saque libre desde el lugar donde se cometió la infracción.'
+ pdf14.pdf (pag112 y 113 de 144)
+
+3. cual es el impacto de diferentes estilos de juego en el fútbol, especialmente en los indicadores de rendimiento físico, técnico y táctico
+' Los estilos de juego tienen un gran impacto en los indicadores de rendimiento físico, 
+técnico y táctico en el fútbol. Por ejemplo, los estilos de juego afectan los indicadores
+ de rendimiento físico como la distancia recorrida por los jugadores o las actividades de
+intensidad alta, debido a los diferentes movimientos de los jugadores como resultado de
+comportamientos específicos típicos de un estilo de juego. Además, los estilos de juego
+también pueden afectar los indicadores de rendimiento técnico y táctico, como el área
+ de juego individual (Fradua et al., 2013), el porcentaje de posesión de la pelota 
+(Lago & Martín, 2007; Lago-Peñas & Dellal, 2009) y la cantidad de cruces (Pollard et al., 1988).'
+pdf13.pdf  (pag3 de 11)
+
+4. cómo la formación 4-4-2 permite una sinergia ofensiva y defensiva?
+' La formación 4-4-2 provee ocho jugadores detrás de la pelota cuando se defiende y
+ cuatro jugadores listos para apoyar a los dos delanteros cuando se ataca. 
+ Esto proporciona un equilibrio y compactidad en la defensa, mientras que los dos 
+ extremos proveen ancho en el medio campo. Además, el sistema permite a los dos extremos 
+ defenderse y atacar con libertad.'
+ pdf11.pdf   (pag3 de 88)
+
+5. Que equipos participaron en la copa mundial de futbol del año 1930
+' Los equipos que participaron en la Copa Mundial de Fútbol del año 1930 fueron: Uruguay,
+ Argentina, Estados Unidos, Yugoslavia, Bélgica, Francia y Rumania.'
+FIFA - 1930.csv
+
+
 Quien fue el pais anfitrion en la copa mundial de futbol de 2010
 Que pasa si un jugdor obtiene 2 amonestaciones en diferenetes partidos?
 Explicame las responsabilidades defensivas y la organización de un sistema 4-4-2, haciendo hincapié en el papel de los cuatro defensores y su coordinación como unidad defensiva.
 Describe las ventajas estratégicas de utilizar una formación 4-4-2 en fútbol, centrándote en cómo proporciona compacidad defensiva
-cómo la formación 4-4-2 permite una sinergia ofensiva y defensiva?
+qué se entiende por "Ambush Marketing" y cómo puede afectar negativamente la asociación comercial no autorizada con la Copa Mundial de la FIFA?
+como se pueden clasificar los estilos de juegos o tacticas
